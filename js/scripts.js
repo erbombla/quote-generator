@@ -1,7 +1,7 @@
-var quotes = [
+  var quotes = [
   'Blessed are the hearts that can bend; they shall never be broken. -Albert Camus',
   'Nothing behind me, everything ahead of me, as is ever so on the road. -Jack Kerouac',
-  'Maybe ever\’body in the whole damn world is scared of each other. -John Steinbeck',
+  'Maybe everybody in the whole damn world is scared of each other. -John Steinbeck',
   'Life is to be lived, not controlled; and humanity is won by continuing to play in face of certain defeat. -Ralph Ellison',
   'Finally, from so little sleeping and so much reading, his brain dried up and he went completely out of his mind. -Miguel Cervantes',
   'No one forgets the truth; they just get better at lying. -Richard Yates',
@@ -15,4 +15,5 @@ var quotes = [
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+  event.preventDefault();
 }

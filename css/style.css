@@ -1,0 +1,29 @@
+body{
+  background: url(images/books.jpg) repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Cutive Mono', monospace;
+  color: #FFF;
+}
+
+.container {
+  padding: 70px 0;
+  margin; 0 auto;
+  text-align: center;
+}
+
+.top,
+.bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#quoteDisplay {
+  font-family: 'Libre Baskerville', serif;
+}
